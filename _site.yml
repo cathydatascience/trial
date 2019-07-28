@@ -8,5 +8,5 @@ navbar:
   - text: "Speed and Distance"
     href: speed.html
 output:
-  html_document:
-  #theme: cosmo
+ html_document:
+  theme: cosmo
