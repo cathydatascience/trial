@@ -6,7 +6,27 @@ navbar:
   - text: "Home"
     href: index.html
   - text: "Speed and Distance"
+    icon: fa-info
     href: speed.html
+  - text: "More"
+    icon: fa-gear
+    menu:
+      - text: "Heading 1"
+      - text: "Page A"
+        href: about.html
+      - text: "---------"
+      - text: "Page B"
+        href: about.html
+      - text: "Heading 2"
+      - text: "page C"
+        href: about.html
+  right:
+    - icon: fa-question fa-lg
+      href: https://cathydatascience.github.io/PracticalMachineLearning/
 output:
  html_document:
   theme: cosmo
+  highlight: textmate
+  include:
+    after_body: footer.html
+  css: styles.css
